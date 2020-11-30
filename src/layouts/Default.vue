@@ -1,8 +1,5 @@
 <template>
   <div class="layout">
-    <head>
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    </head>
     <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
